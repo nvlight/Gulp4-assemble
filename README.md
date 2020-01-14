@@ -1,4 +1,4 @@
-![gulp4](https://cdn.dribbble.com/users/2111468/screenshots/6509813/logo-gulpredraw-2.jpg)
+![gulp4](http://tpverstak.ru/wp-content/uploads/2018/09/7fb34ea5d33344da61d80-2.jpg)
 
 # Сборка Gulp4
 
