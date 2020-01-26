@@ -5,7 +5,7 @@ module.exports = function () {
 		.pipe($.gp.sourcemaps.init())
 		.pipe($.gp.less({}))
 		.pipe($.gp.autoprefixer({
-			browsers: ['last 5 versions']
+			browsers: ['last 10 versions']
 		}))
 		.on("error", $.gp.notify.onError({
 			message: "Error: <%= error.message %>",

@@ -53,3 +53,23 @@ html { box-sizing: border-box; }
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
+
+.container {
+	max-width: 320px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+
+	@media (min-width : 768px) {
+		max-width: 768px;
+	}
+
+	@media (min-width : 992px) {
+		max-width: 992px;
+	}
+
+	@media (min-width : 1200px) {
+		max-width: 1170px;
+		padding: 0;
+	}
+}
