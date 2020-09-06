@@ -7,7 +7,7 @@ module.exports = function () {
 	// });
 
 	$.gulp.task('scripts', function () {
-		return $.gulp.src('src/js/main.js')
+		return $.gulp.src('src/js/**/*.js')
 		.pipe($.gulp.dest('build/js/')) //куда скомпилируются файлы
 		.pipe($.minifyjs()) //минификация файла
 		.pipe($.gp.rename("main-min.js"))
